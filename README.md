@@ -31,9 +31,10 @@ const named = await (Function('return import("named-colors-hex")')()) as Promise
 ```js
 import hexData from "named-colors-hex";
 
-console.log(hexData)                       // => ['aliceblue', 'antiquewhite', 'aqua', ... ]
+console.log(hexData)                       // => ["#F0F8FF", "#FAEBD7", "#00FFFF", "#7FFFD4", ... ]
 console.log(hexData.includes('#87CEEB'))   // => true
 console.log(hexData.length)                // => 148
+console.log(names.indexOf('#9ACD32'))      // => 147
 ```
 
 ```js
