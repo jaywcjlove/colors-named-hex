@@ -1,6 +1,6 @@
 {
   "name": "colors-named-hex",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A array with color name -> Hex rgb.",
   "type": "module",
   "types": "./lib/index.d.ts",
