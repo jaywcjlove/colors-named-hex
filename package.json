@@ -1,14 +1,14 @@
 {
-  "name": "named-colors-hex",
+  "name": "colors-named-hex",
   "version": "0.0.1",
   "description": "A array with color name -> Hex rgb.",
   "type": "module",
   "types": "./lib/index.d.ts",
   "exports": "./lib/index.js",
-  "homepage": "https://jaywcjlove.github.io/named-colors-hex",
+  "homepage": "https://jaywcjlove.github.io/colors-named-hex",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaywcjlove/named-colors-hex"
+    "url": "https://github.com/jaywcjlove/colors-named-hex"
   },
   "scripts": {
     "prepack": "husky install && npm run build",
@@ -23,8 +23,8 @@
     "hex",
     "color",
     "colors",
-    "named-colors-hex",
-    "named-colors",
+    "colors-named-hex",
+    "colors-named",
     "named"
   ],
   "author": "Kenny Wang<wowohoo@qq.com>",

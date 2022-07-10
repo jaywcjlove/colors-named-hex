@@ -1,35 +1,35 @@
-named-colors-hex
+colors-named-hex
 ===
 
-[![Build & Deploy](https://github.com/jaywcjlove/named-colors-hex/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/named-colors-hex/actions/workflows/ci.yml)
-[![Open in unpkg](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/named-colors-hex/file/README.md)
-[![npm version](https://img.shields.io/npm/v/named-colors-hex.svg)](https://www.npmjs.com/package/named-colors-hex)
-[![Coverage Status](https://jaywcjlove.github.io/named-colors-hex/badges.svg)](https://jaywcjlove.github.io/named-colors-hex/lcov-report/)
+[![Build & Deploy](https://github.com/jaywcjlove/colors-named-hex/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/colors-named-hex/actions/workflows/ci.yml)
+[![Open in unpkg](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/colors-named-hex/file/README.md)
+[![npm version](https://img.shields.io/npm/v/colors-named-hex.svg)](https://www.npmjs.com/package/colors-named-hex)
+[![Coverage Status](https://jaywcjlove.github.io/colors-named-hex/badges.svg)](https://jaywcjlove.github.io/colors-named-hex/lcov-report/)
 
-A array with color name -> Hex rgb. Based on https://www.w3.org/TR/css-color-4/#named-colors
+A array with color name -> Hex rgb. Based on https://www.w3.org/TR/css-color-4/#colors-named
 
 ## Installation
 
 This package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c): Node 12+ is needed to use it and it must be import instead of require.
 
 ```bash
-npm install named-colors-hex
+npm install colors-named-hex
 ```
 
 If you still want to use in CommonJS, you can use dynamic `import()` to load.
 
 ```js
-const named = await import('named-colors-hex');
+const named = await import('colors-named-hex');
 
 // Fix compiling in typescript.
 // https://github.com/microsoft/TypeScript/issues/43329#issuecomment-922544562
-const named = await (Function('return import("named-colors-hex")')()) as Promise<typeof import("named-colors-hex")>;
+const named = await (Function('return import("colors-named-hex")')()) as Promise<typeof import("colors-named-hex")>;
 ```
 
 ## Usage
 
 ```js
-import hexData from "named-colors-hex";
+import hexData from "colors-named-hex";
 
 console.log(hexData)                       // => ["#F0F8FF", "#FAEBD7", "#00FFFF", "#7FFFD4", ... ]
 console.log(hexData.includes('#87CEEB'))   // => true
@@ -38,7 +38,7 @@ console.log(names.indexOf('#9ACD32'))      // => 147
 ```
 
 ```js
-import hexData from "named-colors-hex";
+import hexData from "colors-named-hex";
 import colors from "colors-named";
 
 hexData[colors.indexOf('aliceblue')] // => #F0F8FF
@@ -78,8 +78,8 @@ export default hexs;
 
 As always, thanks to our amazing contributors!
 
-<a href="https://github.com/jaywcjlove/named-colors-hex/graphs/contributors">
-  <img src="https://jaywcjlove.github.io/named-colors-hex/CONTRIBUTORS.svg" />
+<a href="https://github.com/jaywcjlove/colors-named-hex/graphs/contributors">
+  <img src="https://jaywcjlove.github.io/colors-named-hex/CONTRIBUTORS.svg" />
 </a>
 
 Made with [action-contributors](https://github.com/jaywcjlove/github-action-contributors).
