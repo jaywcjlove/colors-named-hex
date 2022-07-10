@@ -38,12 +38,37 @@ console.log(names.indexOf('#9ACD32'))      // => 147
 ```
 
 ```js
-import hexData from "colors-named-hex";
-import colors from "colors-named";
+'colors-named'                'colors-named-hex'          'colors-named-decimal'
+===============              ===================         =====================
+const named = [                const hexs = [             const hexs = [
+  'aliceblue',         ->        '#F0F8FF',       ->        [240, 248, 255],
+  'antiquewhite',      ->        '#FAEBD7',       ->        [250, 235, 215],
+  'aqua',              ->        '#00FFFF',       ->        [0, 255, 255],
+  'aquamarine',        ->        '#7FFFD4',       ->        [127, 255, 212],
+  'azure',             ->        '#F0FFFF',       ->        [240, 255, 255],
+  'beige',             ->        '#F5F5DC',       ->        [245, 245, 220],
+  'bisque',            ->        '#FFE4C4',       ->        [255, 228, 196],
+  'black',             ->        '#000000',       ->        [0, 0, 0],
+  'blanchedalmond',    ->        '#FFEBCD',       ->        [255, 235, 205],
+  'blue',              ->        '#0000FF',       ->        [0, 0, 255],
+  'blueviolet',        ->        '#8A2BE2',       ->        [138, 43, 226],
+  'brown',             ->        '#A52A2A',       ->        [165, 42, 42],
+  ...                  ->        ...              ->        ...
+];                             ];                         ];
+```
 
-hexData[colors.indexOf('aliceblue')] // => #F0F8FF
-hexData[colors.indexOf('red')]       // => #FF0000
-hexData[colors.indexOf('black')]     // => #000000
+```js
+import hexs from "colors-named-hex";
+import named from "colors-named";
+import decimal from "colors-named-decimal";
+
+decimal[named.indexOf('aliceblue')] // => [240, 248, 255]
+decimal[named.indexOf('red')]       // => [255, 0, 0]
+decimal[named.indexOf('black')]     // => [0, 0, 0]
+
+hexs[named.indexOf('aliceblue')] // => #F0F8FF
+hexs[named.indexOf('red')]       // => #FF0000
+hexs[named.indexOf('black')]     // => #000000
 ```
 
 ## API
@@ -72,7 +97,8 @@ export default hexs;
 
 ## Related
 
-- [`colors-named`](https://github.com/jaywcjlove/colors-named) A array with color name -> Hex rgb.
+- [`colors-named`](https://github.com/jaywcjlove/colors-named) A array with color names.
+- [`colors-named-decimal`](https://github.com/jaywcjlove/colors-named-decimal) A array with color name -> decimal rgb.
 
 ## Contributors
 
