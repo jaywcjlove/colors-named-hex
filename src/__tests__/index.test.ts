@@ -152,7 +152,6 @@ it('=> includes #F5F5F5', () => expect(names.includes('#F5F5F5')).toBeTruthy());
 it('=> includes #FFFF00', () => expect(names.includes('#FFFF00')).toBeTruthy());
 it('=> includes #9ACD32', () => expect(names.includes('#9ACD32')).toBeTruthy());
 
-
 it('=> #F0F8FF index(0)', () => expect(names.indexOf('#F0F8FF')).toEqual(0));
 it('=> #FAEBD7 index(1)', () => expect(names.indexOf('#FAEBD7')).toEqual(1));
 it('=> #00FFFF index(2)', () => expect(names.indexOf('#00FFFF')).toEqual(2));
@@ -232,7 +231,8 @@ it('=> lemonchiffon -> #FFFACD', async () => expect(names[colors.indexOf('lemonc
 it('=> lightblue -> #ADD8E6', async () => expect(names[colors.indexOf('lightblue')]).toEqual('#ADD8E6'));
 it('=> lightcoral -> #F08080', async () => expect(names[colors.indexOf('lightcoral')]).toEqual('#F08080'));
 it('=> lightcyan -> #E0FFFF', async () => expect(names[colors.indexOf('lightcyan')]).toEqual('#E0FFFF'));
-it('=> lightgoldenrodyellow -> #FAFAD2', async () => expect(names[colors.indexOf('lightgoldenrodyellow')]).toEqual('#FAFAD2'));
+it('=> lightgoldenrodyellow -> #FAFAD2', async () =>
+  expect(names[colors.indexOf('lightgoldenrodyellow')]).toEqual('#FAFAD2'));
 it('=> lightgray -> #D3D3D3', async () => expect(names[colors.indexOf('lightgray')]).toEqual('#D3D3D3'));
 it('=> lightgreen -> #90EE90', async () => expect(names[colors.indexOf('lightgreen')]).toEqual('#90EE90'));
 it('=> lightgrey -> #D3D3D3', async () => expect(names[colors.indexOf('lightgrey')]).toEqual('#D3D3D3'));
@@ -255,7 +255,8 @@ it('=> mediumorchid -> #BA55D3', async () => expect(names[colors.indexOf('medium
 it('=> mediumpurple -> #9370DB', async () => expect(names[colors.indexOf('mediumpurple')]).toEqual('#9370DB'));
 it('=> mediumseagreen -> #3CB371', async () => expect(names[colors.indexOf('mediumseagreen')]).toEqual('#3CB371'));
 it('=> mediumslateblue -> #7B68EE', async () => expect(names[colors.indexOf('mediumslateblue')]).toEqual('#7B68EE'));
-it('=> mediumspringgreen -> #00FA9A', async () => expect(names[colors.indexOf('mediumspringgreen')]).toEqual('#00FA9A'));
+it('=> mediumspringgreen -> #00FA9A', async () =>
+  expect(names[colors.indexOf('mediumspringgreen')]).toEqual('#00FA9A'));
 it('=> mediumturquoise -> #48D1CC', async () => expect(names[colors.indexOf('mediumturquoise')]).toEqual('#48D1CC'));
 it('=> mediumvioletred -> #C71585', async () => expect(names[colors.indexOf('mediumvioletred')]).toEqual('#C71585'));
 it('=> midnightblue -> #191970', async () => expect(names[colors.indexOf('midnightblue')]).toEqual('#191970'));

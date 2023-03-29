@@ -12,8 +12,8 @@
   },
   "scripts": {
     "prepack": "husky install && npm run build",
-    "start": "tsbb watch --disable-babel",
-    "build": "tsbb build --disable-babel",
+    "start": "tsbb watch",
+    "build": "tsbb build",
     "type-check": "tsc --noEmit",
     "test": "tsbb test",
     "coverage": "tsbb test --coverage",
@@ -49,6 +49,6 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "tsbb": "~3.7.6"
+    "tsbb": "^4.0.5"
   }
 }
