@@ -101,7 +101,7 @@ jobs:
 
             ${{ steps.changelog.outputs.changelog }}
 
-      - run: npm publish
+      - run: npm publish --access public --provenance
         name: 📦 colors-named-hex publish to NPM
         continue-on-error: true
         env:
