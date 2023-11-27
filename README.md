@@ -1,6 +1,7 @@
 colors-named-hex
 ===
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
 [![Build & Deploy](https://github.com/jaywcjlove/colors-named-hex/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/colors-named-hex/actions/workflows/ci.yml)
 [![Open in unpkg](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/colors-named-hex/file/README.md)
 [![npm version](https://img.shields.io/npm/v/colors-named-hex.svg)](https://www.npmjs.com/package/colors-named-hex)
