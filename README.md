@@ -69,7 +69,7 @@ const named = await (Function('return import("colors-named-hex")')())
 ```js
 import hexData from "colors-named-hex";
 
-console.log(hexData)                       // => ["#F0F8FF", "#FAEBD7", "#00FFFF", "#7FFFD4", ... ]
+console.log(hexData)                       // => ["#F0F8FF", "#FAEBD7", "#00FFFF", ... ]
 console.log(hexData.includes('#87CEEB'))   // => true
 console.log(hexData.length)                // => 148
 console.log(names.indexOf('#9ACD32'))      // => 147
