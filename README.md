@@ -31,8 +31,8 @@
   <a target="_blank" href="https://apps.apple.com/app/6476400184" title="Resume Revise for macOS"><img alt="Resume Revise" height="52" width="52" src="https://wangchujiang.com/appicon/resume-revise.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/6472593276" title="Palette Genius for macOS"><img alt="Palette Genius" height="52" width="52" src="https://wangchujiang.com/appicon/palette-genius.png"></a>
   <a target="_blank" href="https://apps.apple.com/app/6470879005" title="Symbol Scribe for macOS"><img alt="Symbol Scribe" height="52" width="52" src="https://wangchujiang.com/appicon/symbol-scribe.png"></a>
-  <br><br>
 </div>
+<hr />
 
 colors-named-hex
 ===
@@ -76,23 +76,23 @@ console.log(names.indexOf('#9ACD32'))      // => 147
 ```
 
 ```js
-'colors-named'                'colors-named-hex'          'colors-named-decimal'
-===============              ===================         =====================
-const named = [                const hexs = [             const hexs = [
-  'aliceblue',         ->        '#F0F8FF',       ->        [240, 248, 255],
-  'antiquewhite',      ->        '#FAEBD7',       ->        [250, 235, 215],
-  'aqua',              ->        '#00FFFF',       ->        [0, 255, 255],
-  'aquamarine',        ->        '#7FFFD4',       ->        [127, 255, 212],
-  'azure',             ->        '#F0FFFF',       ->        [240, 255, 255],
-  'beige',             ->        '#F5F5DC',       ->        [245, 245, 220],
-  'bisque',            ->        '#FFE4C4',       ->        [255, 228, 196],
-  'black',             ->        '#000000',       ->        [0, 0, 0],
-  'blanchedalmond',    ->        '#FFEBCD',       ->        [255, 235, 205],
-  'blue',              ->        '#0000FF',       ->        [0, 0, 255],
-  'blueviolet',        ->        '#8A2BE2',       ->        [138, 43, 226],
-  'brown',             ->        '#A52A2A',       ->        [165, 42, 42],
-  ...                  ->        ...              ->        ...
-];                             ];                         ];
+// 'colors-named'         'colors-named-hex'     'colors-named-decimal'
+// ==============         ===================    =====================
+const named = [           const hexs = [         const hexs = [
+  'aliceblue',       ->     '#F0F8FF',    ->      [240, 248, 255],
+  'antiquewhite',    ->     '#FAEBD7',    ->      [250, 235, 215],
+  'aqua',            ->     '#00FFFF',    ->      [0, 255, 255],
+  'aquamarine',      ->     '#7FFFD4',    ->      [127, 255, 212],
+  'azure',           ->     '#F0FFFF',    ->      [240, 255, 255],
+  'beige',           ->     '#F5F5DC',    ->      [245, 245, 220],
+  'bisque',          ->     '#FFE4C4',    ->      [255, 228, 196],
+  'black',           ->     '#000000',    ->      [0, 0, 0],
+  'blanchedalmond',  ->     '#FFEBCD',    ->      [255, 235, 205],
+  'blue',            ->     '#0000FF',    ->      [0, 0, 255],
+  'blueviolet',      ->     '#8A2BE2',    ->      [138, 43, 226],
+  'brown',           ->     '#A52A2A',    ->      [165, 42, 42],
+  ...                ->     ...            ->      ...
+];                        ];                     ];
 ```
 
 ```js

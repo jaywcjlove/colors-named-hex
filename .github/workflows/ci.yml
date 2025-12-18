@@ -105,8 +105,6 @@ jobs:
       - run: npm publish --access public --provenance
         name: 📦 colors-named-hex publish to NPM
         continue-on-error: true
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   #   outputs:
   #     successful: ${{steps.create_tag.outputs.successful }}
